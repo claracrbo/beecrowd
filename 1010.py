@@ -1,0 +1,6 @@
+cp1,np1,vp1=input().split()
+cp1,np1,vp1=int(cp1),int(np1),float(vp1)
+cp2,np2,vp2=input().split()
+cp2,np2,vp2=int(cp2),int(np2),float(vp2)
+total=(np1*vp1)+(np2*vp2)
+print(f"VALOR A PAGAR: R$ {total:.2f}")
